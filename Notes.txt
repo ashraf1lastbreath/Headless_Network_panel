@@ -1,0 +1,15 @@
+1. apt-get install python-dev libmysqlclient-dev   OR   pip install mysql-connector-python-rf
+2. pip install MySQL-python
+3. conn = MySQLdb.connect(host=host, user=user, passwd=passwd, db=db)
+
+
+
+
+NODES :
+ [
+        { id: "http://yahoo.com", label: "http://yahoo.com"},
+        { id: "http://www.deccanherald.com/", label: "http://www.deccanherald.com/" },
+        { id: "https://feeds.intoday.in", label: "https://feeds.intoday.in" },
+        { id: "https://googleads.g.doubleclick.net", label: "https://googleads.g.doubleclick.net" },
+        {id:"https://aajtak.intoday.in/",label:"https://aajtak.intoday.in/"}
+ ];

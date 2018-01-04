@@ -63,11 +63,7 @@ echo "Installing virtual display"
 pip install pyvirtualdisplay==0.2.1
 echo "Installed Everything !!!"
 
-
-
-ANALYSE
-
-LIVE REVIEWS
-none
-price
-write review
+#Install and set up Redis using Docker
+sudo apt-get update
+apt install docker.io
+docker run --name some-redis -d -p 6379:6379 redis

@@ -1,6 +1,12 @@
 # Headless_Network_panel
 A Python program to access Network panel on google chrome developer tools with Selenium, and to fetch the domain names of all elements present on the webpage
 
+* Reads the domain name requirements from a JSON file
+* Opens the website in CHrome headless tab, accesses teh Network Tab, and reads all the element URLs
+* Sets up a Redis cache from config file
+* Sends the domain name along with all its network element urls to Redis cache
+
+
 ## IMPORTANT NOTE :
 ### Make sure you clone this repo as it is on the root path of your UNIX machine
 ### Caution: Headless mode is available on Mac and Linux in Chrome 59 and above.
